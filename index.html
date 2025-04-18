@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlleyX的个人网站 - Code Create Life</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="bg-overlay"></div>
+    
+    <header>
+        <div class="container">
+            <h1>AlleyX的个人网站</h1>
+            <nav>
+                <ul>
+                    <li><a href="#index">首页</a></li>
+                    <li><a href="#education">教育经历</a></li>
+                    <li><a href="#projects">项目经历</a></li>
+                    <li><a href="#hobbies">兴趣爱好</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="index">
+            <div class="container">
+                <div class="profile-intro">
+                    <div class="profile-logo">
+                        <img src="images/tx.jpg" alt="个人标志" class="logo-img">
+                    </div>
+                    <h1 class="name">胡同汛</h1>
+                    <p class="slogan">Code Create Life</p>
+                </div>
+                <div class="hitokoto-container">
+                    <p id="hitokoto-text">加载中...</p>
+                    <p id="hitokoto-from">— 加载中...</p>
+                </div>
+                <div class="hero-social">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-weibo"></i></a>
+                    <a href="#" target="_blank"><i class="fas fa-book"></i></a>
+                    <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+        <!--
+        <section id="about" class="section">
+            <div class="container">
+                <h2>关于我</h2>
+                <div class="about-content">
+                    <div class="about-image">
+
+                        <div class="avatar-placeholder">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>在这里介绍您自己，例如您的背景、职业、兴趣爱好等。</p>
+                        <p>您可以分享您的技能、专业知识以及个人特点。</p>
+                        <div class="skills">
+                            <h3>技能</h3>
+                            <ul class="skill-list">
+                                <li>技能 1</li>
+                                <li>技能 2</li>
+                                <li>技能 3</li>
+                                <li>技能 4</li>
+                                <li>技能 5</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        --> 
+        <section id="education" class="section">
+            <div class="container">
+                <h2>教育经历</h2>
+                <div class="timeline">
+                    <!-- 教育经历项目 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>南京邮电大学</h3>
+                            <p class="timeline-date">2022年9月 - 2026年6月</p>
+                            <p class="timeline-degree">学位: 学士学位</p>
+                            <p class="timeline-major">专业: 网络工程</p>
+                            <p class="timeline-desc">荣誉奖项：优秀共青团员、校级一等奖学金、校级三好学生、国家励志奖学金</p>
+                        </div>
+                    </div>
+
+                    <!--
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>江苏省兴化中学</h3>
+                            <p class="timeline-date">2019年9月 - 2022年6月</p>
+                            <p class="timeline-degree">学位: 高中</p>
+                            <p class="timeline-major">专业: 理科班</p>
+                            <p class="timeline-desc">在这里描述您的高中教育经历，包括重要的活动、成就等。</p>
+                        </div>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>项目经历</h2>
+                <div class="projects-container">
+                    <!-- 项目卡片 1 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>针对WiFi设备抗信道干扰的射频指纹的设计</h3>
+                            <p class="project-date">2023年10月 - 2025年03月</p>
+                            <p class="project-desc">项目描述：针对射频指纹极易受到信道影响的问题，借鉴说话人识别中的常数Q倒谱系数以提高处理射频信号的频率分辨率，从而有效地分离射频指纹和信道干扰。</p>
+                            <div class="project-tech">
+                                <span>信号处理</span>
+                                <span>深度学习</span>
+                                <span>无线通信安全</span>
+                                <span>WiFi指纹</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fas fa-link"></i> 项目链接</a>
+                                <a href="https://github.com/AlleyXabcd/Channel-Resilient_RFF" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 项目卡片 2 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>基于LoRA微调技术的特定文本到图像生成项目</h3>
+                            <p class="project-date">2025年03月 - 2025年04月</p>
+                            <p class="project-desc">项目描述：基于Stable Diffusion v1.5模型，使用LoRA技术进行微调，针对宝可梦IP风格化生成场景，通过分层参数冻结，实现文本到图像的跨模态精准映射。</p>
+                            <div class="project-tech">
+                                <span>深度学习</span>
+                                <span>图像生成</span>
+                                <span>LoRA微调</span>
+                                <span>文生图</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fas fa-link"></i> 项目链接</a>
+                                <a href="https://github.com/AlleyXabcd/sdfinetuning" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 项目卡片 3 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>基于DES算法加解密应用程序设计</h3>
+                            <p class="project-date">2025年03月 - 2025年04月</p>
+                            <p class="project-desc">项目描述：基于Diffie-Hellman密钥交换算法和DES加解密算法，设计一个加解密应用程序，通过图形化界面，实现小文本和大文件的网络加密通信。</p>
+                            <div class="project-tech">
+                                <span>密码学</span>
+                                <span>图形化界面</span>
+                                <span>消息加密</span>
+                                <span>网络通信</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fas fa-link"></i> 项目链接</a>
+                                <a href="https://github.com/AlleyXabcd/CyberSecurity" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 项目卡片 4 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>基于洛克IP的卡牌策略游戏</h3>
+                            <p class="project-date">204年05月 - 2024年06月</p>
+                            <p class="project-desc">项目描述：基于洛克IP的卡牌策略游戏，使用Java和swing开发，实现一个卡牌策略游戏，通过图形化界面，实现卡牌的收集、卡组构建和游戏对战等功能。</p>
+                            <div class="project-tech">
+                                <span>游戏开发</span>
+                                <span>图形化界面</span>
+                                <span>卡牌策略</span>
+                                <span>游戏设计</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fas fa-link"></i> 项目链接</a>
+                                <a href="https://github.com/AlleyXabcd/cardgame" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- 项目卡片 5 -->                   
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>物业缴费程序</h3>
+                            <p class="project-date">2023年12月 - 2024年01月</p>
+                            <p class="project-desc">项目描述：实现一个物业缴费程序，实现物业费的查询、缴费和账单管理等功能，协助管理自助化收费。</p>
+                            <div class="project-tech">
+                                <span>C++</span>
+                                <span>物业管理</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fas fa-link"></i> 项目链接</a>
+                                <a href="https://github.com/AlleyXabcd/wuyejiaofei" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies" class="section">
+            <div class="container">
+                <h2>兴趣爱好</h2>
+                <div class="hobbies-container">
+                    <!-- 兴趣爱好卡片 1 -->
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <i class="fas fa-basketball"></i>
+                        </div>
+                        <h3>篮球</h3>
+                        <p>对篮球有着浓厚的兴趣，喜欢看NBA比赛，喜欢打篮球，2022年11月参与学院篮球新生杯，获得冠军。</p>
+                    </div>
+
+                    <!-- 兴趣爱好卡片 2 -->
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <i class="fas fa-chess-board"></i>
+                        </div>
+                        <h3>中国象棋</h3>
+                        <p>虽然棋艺不精，但就是又菜又爱下</p>
+                    </div>
+
+                    <!-- 兴趣爱好卡片 3 -->
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <h3>数学</h3>
+                        <p>喜欢数学，喜欢研究数学问题，喜欢分享数学心得。</p>
+                    </div>
+
+                    <!-- 兴趣爱好卡片 4 -->
+                    <div class="hobby-card">
+                        <div class="hobby-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>编程</h3>
+                        <p>掌握多种高级语言，了解主流前后端框架，热爱深度学习，喜欢研究AI算法。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023-2025 我的个人主页. 保留所有权利.</p>
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
