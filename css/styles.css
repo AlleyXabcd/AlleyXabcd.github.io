@@ -207,6 +207,8 @@ nav ul li a:hover::after {
     max-width: 800px;
     width: 100%;
     backdrop-filter: blur(5px);
+    margin: 0 auto;
+    text-align: center;
 }
 
 #hitokoto-text {
